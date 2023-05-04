@@ -1,0 +1,123 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: rgb(0, 0, 0);
+    border: none;
+}
+hi{
+    font-size: 30px;
+
+}
+ body{
+    background-color: #000000;
+    background-image: url('../img/wallpaperflare.com_wallpaper\ \(8\).jpg') ;
+    background-size: cover; 
+    height: 100vh;
+}
+
+textarea:focus, input:focus{
+    outline: none
+
+}
+a, label{
+    font-size: .8rem;
+
+}
+a:hover{
+    color:#451274
+}
+#login-container{
+    background-color: #fff;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 5%;
+    border-radius: 10px;
+    text-align: center;
+ 
+ 
+ }
+ form{
+    margin-top: 30px;
+    margin-bottom: 40px;
+ }
+ label, input{
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+label{
+    font-weight: bold;
+}
+input{
+  
+    border-bottom: 2px solid;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px ;
+}
+input:focus{
+    border-bottom: 2px solid #5131e1;
+}
+#forgot-passoword{
+    text-align: right;
+    display: block;
+}
+Input[type="button"]{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: aliceblue;
+    background-color: #461e7a;
+    cursor: pointer;
+}
+Input[type="submit"]:hover{
+    background-color: rgb(82, 90, 161);
+    transition: .6s;
+}
+#social-container, #social-container p{
+    margin-bottom: 20px;
+}
+
+#social-container i{
+    height: 40px ;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    color:aliceblue;
+    margin: 0 5px;
+    cursor: pointer;
+}	
+
+
+#register-container p{
+    margin-bottom: 10px;
+}
+
+#mostrarSenha {
+    position: absolute;
+    display: inline-flex;
+    margin-left: -170px;
+    margin-top: -15px;
+    font-size: 12px;
+}
+
+#olho {
+    width: 30px;
+    padding-left: 10px;
+    margin-top:-3px;
+    cursor: pointer; 
+}
+
+
+
+
+

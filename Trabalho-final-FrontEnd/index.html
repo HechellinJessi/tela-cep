@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área de Clientes</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/login.css">
+  
+</head>
+<body>
+   <div id="login-container">
+     <hi>Login</hi>
+         <form action="">
+        <label for="email"E-mail>E-mail</label>
+        <input type="email" name="email" id="email" placeholder="Digite o seu E-mail" autocomplete="off">
+        <label for="password">Senha</label>
+        <input type="password" name="password"  id="password" placeholder="Digite a sua senha">
+         <a href="#" id="forgot-passoword">Esqueceu a senha?</a>
+         <div id="mostrarSenha">
+          <p>Mostrar senha </p> 
+          <img id="olho" src="./img/olho.png" alt="imagem de um olho" onclick="mostrarSenha()">
+         </div>
+        
+        <input id="btnLogin" value="Login" type="button" onclick="validarLogin()">
+    </form>
+  
+    <div id="register-container">
+        <p>Ainda não possui uma conta?</p>
+         <a href="./cadastro.html">Criar uma conta</a>
+
+   
+    </div>
+   </div>
+
+  <script src="./js/login.js"></script>
+
+
+</body>
+</html>
